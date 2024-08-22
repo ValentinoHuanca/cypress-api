@@ -1,0 +1,15 @@
+{
+    "reporterEnabled":"spec,mocha-junit-reporter,mochawesome",
+    "mochaJunitReporterReporterOptions":{
+        "mochaFile":"cypress/test_result/junit-report/edge-[hash].xml",
+        "toConsole":false,
+        "outputs":true,
+        "testCaseSwitchClasnameAndName":true
+    },
+    "reporterOptions":{
+        "reportDir":"cypress/test_result/mocha/edge",
+        "overwrite":false,
+        "html":true,
+        "json":true
+    }
+}
