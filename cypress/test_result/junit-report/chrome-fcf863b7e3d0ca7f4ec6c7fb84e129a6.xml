@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuites name="Mocha Tests" time="1.662" tests="0" failures="0">
-  <testsuite name="Root Suite" timestamp="2024-08-22T03:42:58" tests="0" file="cypress\e2e\tests\test-api\Status.cy.js" time="1.660" failures="0">
-    <testcase name=" test Api Status" time="1.633" classname="test Api Status">
-    </testcase>
-  </testsuite>
-</testsuites>
