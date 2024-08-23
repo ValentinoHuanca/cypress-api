@@ -5,18 +5,18 @@ module.exports = defineConfig({
   experimentalInteractiveRunEvents:true,
   screenshotOnRunFailure:false,
   reporterOptions:{
-    
+    configFile:'config-report-chrome.json'
   },
   e2e: {
     setupNodeEvents(on, config) {
       // implement node event listeners here
     },
-    baseUrl:"https://simple-books-api.glitch.me"
+    baseUrl:'https://simple-books-api.glitch.me'
   },
   env:{
     endpoint:{
-      books:"books",
-      SubmitOrder:"orders"
+      books:'books',
+      SubmitOrder:'orders'
     }
   }
 });

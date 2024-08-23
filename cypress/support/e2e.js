@@ -15,6 +15,10 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
+import { removeLogs } from './helper/RemoveLogs'
+//removeLogs()
+import 'cypress-plugin-steps'
+import 'cypress-plugin-api'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
