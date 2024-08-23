@@ -27,7 +27,7 @@ jobs:
               with:
                   browser: chrome
                   command:
-                    npm run test-reporter-chrome **/*/
+                    npm run test-reporter-chrome **/*/Status.cy.js
 
 
             
@@ -36,7 +36,7 @@ jobs:
               with:
                   browser: firefox
                   command:
-                    npm run test-reporter-firefox **/*/
+                    npm run test-reporter-firefox **/*/Status.cy.js
 
 
 
@@ -45,7 +45,7 @@ jobs:
               with:
                   browser: edge
                   command:
-                    npm run test-reporter-edge **/*/
+                    npm run test-reporter-edge **/*/Status.cy.js
 
 
             - name: artefact mochawesome HTML and Json report
