@@ -23,7 +23,7 @@ NOTA:los casos se ubican en la ruta cypress/e2e/tests/API-tests/nameTest.cy.js
 
 1. **Chrome**:
     ```
-    npm run test-reporter-edge **/*/<nameTest.cy.js>
+    npm run test-reporter-chrome **/*/<nameTest.cy.js>
     ````
 2. **Firefox**:
     ```
