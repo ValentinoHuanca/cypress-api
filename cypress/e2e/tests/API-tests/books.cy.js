@@ -10,7 +10,7 @@ describe('Books',()=>{
             
             cy.api({
                 method:'GET',
-                url:`/${booksList}`
+                url:`/${books}`
             }).then(response =>{
                 //const body = response.json
                 const body_type = response.body[0].type
@@ -26,7 +26,7 @@ describe('Books',()=>{
             const booksRan=randomNumInt(1,rang)
             cy.api({
                 method:'GET',
-                url:`/${booksList}/`+`${booksRan}`
+                url:`/${books}/`+`${booksRan}`
                 //no se puede poner dos const Variable en un mismo conjunto de comillas, se puede usar
                 //el simbolo "+" para unirlos
                 
