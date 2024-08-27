@@ -34,4 +34,4 @@ NOTA:los casos se ubican en la ruta cypress/e2e/tests/API-tests/nameTest.cy.js
     npm run test-reporter-edge **/*/<nameTest.cy.js>
     ````
 
-estos comando se deben ejecutar en la terminal, generaran cada uno tres informes(uno en html,json y xml) en distintas rutas(cypress/junit-report y mochawesome-report) 
+estos comando se deben ejecutar en la terminal, generaran cada uno tres informes(uno en html,json y xml) en distintas rutas(cypress/junit-report y mochawesome-report)
