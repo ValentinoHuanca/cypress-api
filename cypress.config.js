@@ -15,7 +15,7 @@ module.exports = defineConfig({
     baseUrl:'https://simple-books-api.glitch.me'
   },
   env:{
-    token:'b373aff772b7962f8a5f24236959d8f0b407b582c75151b604970821647b111e',
+    token:'eeceae6310c0c43f20f35663ce1b22bf43a52a433fb57e85e456af51af9285e0',
     endpoint:{
       books:'books',
       SubmitOrder:'orders',

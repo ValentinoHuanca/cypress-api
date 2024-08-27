@@ -1,10 +1,11 @@
 const {SubmitOrder} = Cypress.env('endpoint')
+const { faker } = require('@faker-js/faker')
 function randomNumInt(min, max) {
 	return Math.floor(Math.random() * (max - min) + min)
 }
-describe('',()=>{
+describe('Orders',()=>{
     let bookId1 = randomNumInt(1,6)
-    let nameCustomer = "johnSalchichon32"
+    let nameCustomer = faker.internet.userName()
     let orderIdCreate
     it('Submit and Order',()=>{
         cy.api({
