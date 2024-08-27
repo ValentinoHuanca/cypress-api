@@ -19,7 +19,7 @@ Se debe escribir en la terminal "npm test"
 
 ## Ejecutar pruebas en terminal
 Se puede ejecutar en tres navegadores chrome, firefox y edge.
-NOTA:los casos se ubican en la ruta cypress/e2e/tests/nameTest.cy.js
+NOTA:los casos se ubican en la ruta cypress/e2e/tests/API-tests/nameTest.cy.js
 
 1. **Chrome**:
     ```
