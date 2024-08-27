@@ -53,7 +53,7 @@ jobs:
               uses: actions/upload-artifact@v3
               with:
                     name: report-Mochawesome_${{github.ref_name}}
-                    path: mochawesome
+                    path: mochawesome-report
                       
             
             - name: artefact Junit XML report
