@@ -35,3 +35,9 @@ NOTA:los casos se ubican en la ruta cypress/e2e/tests/API-tests/nameTest.cy.js
     ````
 
 estos comando se deben ejecutar en la terminal, generaran cada uno tres informes(uno en html,json y xml) en distintas rutas(cypress/junit-report y mochawesome-report)
+
+NOTA:para ejecutar los casos de la branch orders, se debe primero generar el token de acceso, esto se puede hacer en la branch APIauthentication, ejecutando el caso atrabes de cypress, una vez generado se debe remplazar el token antiguo por el token recien generado, en la parte de cypress.env en el archivo cypress.config.js, el token tiene una valides de 7 dias
+
+## Documentacion
+
+https://github.com/vdespa/introduction-to-postman-course/blob/main/simple-books-api.md
