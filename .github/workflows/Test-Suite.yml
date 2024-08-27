@@ -27,7 +27,7 @@ jobs:
               with:
                   browser: chrome
                   command:
-                    npm run test-reporter-chrome **/*/
+                    npm run test-reporter-chrome **/*/Order.cy.js
 
 
             
@@ -36,7 +36,7 @@ jobs:
               with:
                   browser: firefox
                   command:
-                    npm run test-reporter-firefox **/*/
+                    npm run test-reporter-firefox **/*/Order.cy.js
 
 
 
@@ -45,7 +45,7 @@ jobs:
               with:
                   browser: edge
                   command:
-                    npm run test-reporter-edge **/*/
+                    npm run test-reporter-edge **/*/Order.cy.js
 
 
             - name: artefact mochawesome HTML and Json report
@@ -53,7 +53,7 @@ jobs:
               uses: actions/upload-artifact@v3
               with:
                     name: report-Mochawesome_${{github.ref_name}}
-                    path: cypress/test_result/mocha
+                    path: mochawesome-report
                       
             
             - name: artefact Junit XML report
@@ -61,4 +61,4 @@ jobs:
               uses: actions/upload-artifact@v3
               with:
                     name: report-Junit_${{github.ref_name}}
-                    path: cypress/test_result/junit-report
+                    path: cypress/junit-report
