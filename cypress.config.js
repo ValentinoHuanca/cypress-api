@@ -18,7 +18,8 @@ module.exports = defineConfig({
     token:'b373aff772b7962f8a5f24236959d8f0b407b582c75151b604970821647b111e',
     endpoint:{
       books:'books',
-      SubmitOrder:'orders'
+      SubmitOrder:'orders',
+      apiClients:'api-clients'
     }
   }
 });
