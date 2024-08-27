@@ -17,7 +17,8 @@ module.exports = defineConfig({
   env:{
     endpoint:{
       books:'books',
-      SubmitOrder:'orders'
+      SubmitOrder:'orders',
+      apiClients:'api-clients'
     }
   }
 });
